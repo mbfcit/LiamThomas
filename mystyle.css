@@ -1,0 +1,91 @@
+body {
+    background-color: grey;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #990000;
+}
+
+html *
+{
+   font-size: 0.9 !important;
+   font-family: "Motiva Sans Light" !important;
+}
+
+@font-face {
+  font-family: "Motiva Sans Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://store.akamai.steamstatic.com/public/shared/fonts/motiva-sans-light.eot?#iefix") format("embedded-opentype"), url("http://store.akamai.steamstatic.com/public/shared/fonts/motiva-sans-light.woff") format("woff"), url("http://store.akamai.steamstatic.com/public/shared/fonts/motiva-sans-light.ttf") format("truetype"), url("http://store.akamai.steamstatic.com/public/shared/fonts/motiva-sans-light.svg#ywftsvg") format("svg");
+}
+
+.demo-2 {
+    position:absolute;
+    width:300px;
+    height:200px;
+    overflow:hidden;
+    float:left;
+    margin-right:20px;
+    background-color:#990000;
+}
+.demo-2 p,.demo-2 h2 {
+    color:#fff;
+    padding:10px;
+    left:100px;
+    top:20px;
+    position:relative
+}
+.demo-2 p {
+    font-size:12px;
+    line-height:18px;
+    margin:0
+}
+.demo-2 h2 {
+    font-size:20px;
+    line-height:24px;
+    margin:0;
+
+}
+.effect img {
+    position:absolute;
+    left:0px;
+    display: block;
+    bottom:0;
+    cursor:pointer;
+    margin:0 auto;
+    -webkit-transition:bottom .3s ease-in-out;
+    -moz-transition:bottom .3s ease-in-out;
+    -o-transition:bottom .3s ease-in-out;
+    transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h2.zero,p.zero {
+    margin:0;
+    padding:0
+}
